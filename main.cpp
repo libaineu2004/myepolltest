@@ -11,7 +11,7 @@ using namespace std;
 #define PORT           8011 //linux终端命令"netstat -nalp|grep 8011|wc -l",可以查看tcp端口的客户端连接数
 #define MAXCONN        50000
 #define MAXSOCKETBUF   1024
-#define MAXMQCOUNT     1000
+#define MAXMQCOUNT     1500
 bool g_bStop = false;
 
 void sigterm_handler(int signo)
